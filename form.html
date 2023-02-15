@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <h1>this is my form</h1>
+    </head>
+    <body>
+        <form>
+        <div>
+            <label>Token</label>
+            <input type="hidden" value="b92f1fc2fce391ad7af633723afd3055">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" value=" o@o.com" name="email" readonly>
+        </div>
+        <div>
+            <label>Username</label>
+            <input type="text" placeholder="write the username" name="username" min="5" max="20" autofocus>
+        </div>
+        <p>Skills</p>
+        <div>
+            <input id="ps" type="radio" name="check" value="Problem Solving" >
+            <label for="ps">Problem Solving</label>
+        </div>
+        <div>
+            <input id="lt" type="radio" name="check" value="Logical Thinking">
+            <label for="lt">Logical Thinking</label>
+        </div>
+        <div>
+            <input id="as" type="radio" name="check" value="Advanced Search" checked>
+            <label for="as"> Advanced Search</label>
+        </div>
+        <div>
+            <input id="analysis" type="radio" name="check" value="Analysis">
+            <label for="analysis"> Analysis</label>
+        </div>
+        <div>
+            <input id="pl" type="radio" name="check" value="Planning">
+            <label for="pl"> Planning</label>
+        </div>
+        <hr>
+        <p>jobs</p>
+        <div>
+            <input id="fe" type="radio" name="wiz" value="Front End Developer">
+            <label for="fe">Front End Developer</label>
+        </div>
+        <div>
+            <input id="be" type="radio" name="wiz" value="back End Developer" checked>
+            <label for="be">back End Developer</label>
+        </div>
+        <div>
+            <input id="ba" type="radio" name="wiz" value="business analyst">
+            <label for="ba"> business analyst</label>
+        </div>
+        <div>
+            <input id="pm" type="radio" name="wiz" value="Project Manager">
+            <label for="pm"> Project Manager</label>
+        </div>
+        <div>
+            <input id="sm" type="radio" name="wiz" value="Scrum Master">
+            <label for="sm"> Scrum Master</label>
+        </div>
+        <label for ="progamming">choose a language</label>
+        <select name="language" id="language">
+            <optgroup label="PHP">
+                <option value="1">v5.0</option>
+                <option value="2">v7.0</option>
+                <option value="3">8.0</option>
+            </optgroup>
+            <optgroup label="Python">
+                <option value="4">v2.0</option>
+                <option value="5">v3.0</option>
+                <option value="6">3.9</option>
+            </optgroup>
+            </select>
+            <hr>
+            <textarea name="brief" cols="30" rows="10" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+        
+        
+        <hr>
+        <input type="reset"  value="Empty">
+        <input type="submit" value="send">
+
+        </form>
+    </body>
+</html>
